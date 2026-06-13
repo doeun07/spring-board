@@ -5,3 +5,9 @@ data class PostResponse(
     val title: String,
     val content: String,
 )
+
+data class PostCreateRequest (
+    val authorId: Long,
+    val title: String,
+    val content: String,
+)
